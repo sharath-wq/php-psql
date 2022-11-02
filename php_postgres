@@ -1,0 +1,20 @@
+instlled location $ /etc/postgresql/14/main
+
+working $ service postgresql 
+
+status $ service postgresql status
+	
+	
+postgrest opening $ sudo su postgres psql
+
+list database $ \l
+
+list user $ \du
+
+alter passoword for root user $ ALTER USER postgres WITH PASSWORD 'new_password';
+
+create new user $ CREATE USER user_1 WITH PASSWORD 'usertest123';
+
+
+
+

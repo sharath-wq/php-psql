@@ -15,6 +15,10 @@ alter passoword for root user $ ALTER USER postgres WITH PASSWORD 'new_password'
 
 create new user $ CREATE USER user_1 WITH PASSWORD 'usertest123';
 
+php-postgres installation  $ sudo apt-get install php-pgsql
+
+sample programs link # https://www.tutorialspoint.com/postgresql/postgresql_create_table.htm
+
 
 
 
